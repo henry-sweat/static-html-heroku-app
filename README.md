@@ -4,20 +4,20 @@
 $ git clone ...
 
 # create files
-$ echo "insert html" > home.html 
-$ echo '<?php include_once("home.html"); ?>' > index.php
+$ echo "insert html" > home.html \n
+$ echo '<?php include_once("home.html"); ?>' > index.php \n
 $ echo '{}' > composer.json
 
 # push files to github repo
-$ git add .
-$ git commit -m "initial commit"
+$ git add . \n
+$ git commit -m "initial commit" \n
 $ git push origin main
 
 # log in to heroku using CLI
 $ heroku login
 
 # set heroku as the remote
-heroku git:remote -a your-app-name-123
+$heroku git:remote -a your-app-name-123
 
 # push repo to heroku
 $ git add .
