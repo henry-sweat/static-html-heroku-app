@@ -4,7 +4,7 @@
 $ git clone ...
 
 # create files
-$ echo " " > home.html 
+$ echo "insert html" > home.html 
 $ echo '<?php include_once("home.html"); ?>' > index.php
 $ echo '{}' > composer.json
 
