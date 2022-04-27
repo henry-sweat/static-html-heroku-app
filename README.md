@@ -4,13 +4,13 @@
 $ git clone ...
 
 # create files
-$ echo "insert html" > home.html /n
-$ echo '<?php include_once("home.html"); ?>' > index.php \n
+$ echo "insert html" > home.html
+$ echo '<?php include_once("home.html"); ?>' > index.php
 $ echo '{}' > composer.json
 
 # push files to github repo
-$ git add . \n
-$ git commit -m "initial commit" \n
+$ git add .
+$ git commit -m "initial commit"
 $ git push origin main
 
 # log in to heroku using CLI
